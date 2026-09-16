@@ -2,7 +2,7 @@ package modelo;
 
 public enum Ficha {
 	// ATRIBUTOS
-	X, Y;
+	X, O;
 	
 	
 	//METODO
