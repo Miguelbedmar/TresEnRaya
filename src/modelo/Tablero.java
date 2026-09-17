@@ -38,8 +38,8 @@ public class Tablero {
 
 	@Override
 	public String toString() {
-		return "{" +"_"+"_"+"_"+"_"+"_"+"_"+"_"+
-			"}";
+		return "{" +"_"+"_"+"_"+"_"+"_"+"_"+"_"
+					+"_"+"_"+"_"+"_"+"_"+"_"+"_"+ "}";		
 	}
 
 	private Object valueOf(Ficha ficha){
