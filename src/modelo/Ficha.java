@@ -1,6 +1,6 @@
 package modelo;
 
-public enum Ficha {
+public enum Ficha  {
 	// ATRIBUTOS
 	X, O;
 	
