@@ -7,6 +7,6 @@ public enum Ficha {
 	
 	//METODO
 	public Ficha siguienteFicha() {
-		return null;
+		return X;
 	}
 }

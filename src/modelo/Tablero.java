@@ -1,8 +1,9 @@
 package modelo;
 
+
 public class Tablero {
 
-	
+
 		
 	//CONSTRUCTOR
 	public Tablero() {
@@ -10,4 +11,5 @@ public class Tablero {
 	}
 	
 	//METODOS
+	
 }
