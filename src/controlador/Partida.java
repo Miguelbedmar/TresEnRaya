@@ -22,9 +22,12 @@ public class Partida {
 
     @Override
     public String toString() {
-        return "{" +
+        return "{" +  "|"+"|"+"|"+
+                      "|"+"|"+"|"+
+                      "|"+"|"+"|"+  
             "}";
     }
     
+
     
 }
