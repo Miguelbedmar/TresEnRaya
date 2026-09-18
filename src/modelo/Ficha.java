@@ -9,4 +9,5 @@ public enum Ficha  {
 	public Ficha siguienteFicha() {
 		return X;
 	}
+	
 }
