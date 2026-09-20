@@ -2,6 +2,7 @@ package modelo;
 
 
 public class Tablero {
+	protected  Ficha [][] casilla;
 	
 
 
