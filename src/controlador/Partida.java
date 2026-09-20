@@ -4,7 +4,7 @@ import modelo.Ficha;
 import modelo.Tablero;
 public class Partida {
  private  Tablero tablero;
- private Ficha ficha:
+ private Ficha ficha;
  public Partida (){
 
  }

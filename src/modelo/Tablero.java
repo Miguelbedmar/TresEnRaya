@@ -4,13 +4,13 @@ package modelo;
 public class Tablero {
 	
 
-		
+
 	//CONSTRUCTOR
 	public Tablero() {
 		
 	}
 	
-	//METODOS
+	//METODO
 	
 	public boolean jugar(Ficha ficha){
 		
