@@ -3,7 +3,6 @@ package controlador;
 import modelo.Ficha;
 
 public class Partida {
-
  public Partida (){
     
  }
