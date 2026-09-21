@@ -2,15 +2,16 @@ package modelo;
 
 
 public class Tablero {
+	protected  Ficha [][] casilla;
 	
 
-		
+
 	//CONSTRUCTOR
 	public Tablero() {
 		
 	}
 	
-	//METODOS
+	//METODO
 	
 	public boolean jugar(Ficha ficha){
 		
