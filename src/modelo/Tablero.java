@@ -7,8 +7,8 @@ public class Tablero {
 
 
 	//CONSTRUCTOR
-	public Tablero(int casilla) {
-		// casilla = new Ficha[  ] [ ];
+	public Tablero(int tablero) {
+	 this.casilla = new Ficha[3][3];
 	}
 	
 	//METODO
