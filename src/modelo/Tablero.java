@@ -7,8 +7,8 @@ public class Tablero {
 
 
 	//CONSTRUCTOR
-	public Tablero() {
-		
+	public Tablero(int casilla) {
+		// casilla = new Ficha[  ] [ ];
 	}
 	
 	//METODO
@@ -18,11 +18,11 @@ public class Tablero {
 		return false;
 	}
 
-	public boolean  estarLleno(){
+	public boolean  estaLleno(){
 		
 		return false;
 	}
-	public boolean ganarFicha(Ficha ficha){
+	public boolean ganaFicha(Ficha ficha){
 		
 		return false;
 	}
@@ -47,6 +47,8 @@ public class Tablero {
 
 	@Override
 	public String toString() {
+
+
 		return "{" +"_"+"_"+"_"+
 					"_"+"_"+"_"+ "}";		
 	}
