@@ -27,3 +27,13 @@
 2026-09-16 17:22:17.561: [INFO] BookmarksLoadDropped droppedNodes=0
 2026-09-16 17:22:17.561: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
 2026-09-16 18:17:06.637: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-22 13:08:07.040: [INFO] CurrentProfilePath: C:\Users\miguelbedmards\Desktop\TresEnRaya\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-22 13:08:07.040: [INFO] Profiles total count: 1
+2026-09-22 13:08:07.040: [INFO] Profile: name=Perfil 1 path=C:\Users\miguelbedmards\Desktop\TresEnRaya\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-09-16T16:51:17.670Z
+2026-09-22 13:08:07.040: [INFO] LastUsedProfileDir: C:\Users\miguelbedmards\Desktop\TresEnRaya\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-22 13:08:07.040: [INFO] MostRecentlyActiveProfile: name=Perfil 1 path=C:\Users\miguelbedmards\Desktop\TresEnRaya\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-09-16T16:51:17.670Z
+2026-09-22 13:08:07.040: [INFO] OnDoneLoading sync enabled: 0
+2026-09-22 13:08:07.040: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-22 13:08:07.040: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-22 13:08:07.040: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-22 13:12:49.703: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1

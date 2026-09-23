@@ -11,27 +11,38 @@ public class Partida {
     this.turno= Ficha.X;
     this.tablero=new Tablero(dimension);
  }
-    public void jugar(){
+    public void jugar(int fila, int columna){
         
+        boolean sePudo = tablero.jugar(turno,fila, columna);
+
+        if(sePudo){
+            turno=turno.siguiente();
+        }
     }
 
     public boolean terminada(){
 
-        return false;
+        return tablero.estaLleno()||tablero.gana(Ficha.X)||tablero.gana(Ficha.O);
     }   
 
     public  Ficha ganador(){
+        if(tablero.gana(Ficha.X)){
         
+                return Ficha.X;
+        }
+        if(tablero.gana(Ficha.O)){
+            return Ficha.O;
+
+        }
+
         return null;
     }
 
 
     @Override
     public String toString() {
-        return "{" +  "|"+"|"+"|"+
-                      "|"+"|"+"|"+
-                      "|"+"|"+"|"+  
-            "}";
+        return "{"   
+      +      "}";
     }
     
 
