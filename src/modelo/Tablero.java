@@ -7,9 +7,9 @@ public class Tablero {
 
 
 	//CONSTRUCTOR
-	public Tablero(int tablero) {
-	 this.casilla = new Ficha[3][3];
-	}
+	public Tablero(int dimension) {
+			 this.casilla = new Ficha[dimension][dimension];
+			}
 	
 	//METODO
 	
@@ -18,11 +18,11 @@ public class Tablero {
 		return false;
 	}
 
-	public boolean  estaLleno(){
+	public boolean  estarLleno(){
 		
 		return false;
 	}
-	public boolean ganaFicha(Ficha ficha){
+	public boolean ganarFicha(Ficha ficha){
 		
 		return false;
 	}
@@ -47,8 +47,6 @@ public class Tablero {
 
 	@Override
 	public String toString() {
-
-
 		return "{" +"_"+"_"+"_"+
 					"_"+"_"+"_"+ "}";		
 	}
