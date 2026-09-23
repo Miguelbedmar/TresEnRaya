@@ -102,8 +102,22 @@ public class Tablero {
 
 	@Override
 	public String toString() {
-		return "{" +"_"+"_"+"_"+
-					"_"+"_"+"_"+ "}";		
+		String resultado ="";
+
+		for(int i=0;i<casilla.length;i++){
+			for(int j=0;j<casilla[i].length;j++){
+				if (casilla[i][j]==null) {
+					resultado+="_";
+				}else{
+					resultado+=casilla[i][j];
+
+				}
+			}
+			resultado+="\n";
+		}
+
+
+		return resultado;		
 	}
 
 	private Object valueOf(Ficha ficha){
