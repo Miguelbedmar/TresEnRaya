@@ -12,11 +12,11 @@ public class Main {
 		while(!partida.terminada()){
 		System.out.println(partida.toString());
 		
-		System.out.println("Ingrese el numero de filas que deseas");
+		System.out.println("Ingrese  un número entre 0 y 2");
 		 fila=sc.nextInt();
 
 		
-		System.out.println("Ingrese el numero de columnas que deseas");
+		System.out.println("Ingrese un número entre 0 Y 2");
 		columna=sc.nextInt();
 		
 		partida.jugar(fila, columna);
