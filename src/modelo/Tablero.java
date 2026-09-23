@@ -45,24 +45,38 @@ public class Tablero {
 			
 	}
 	protected boolean ganaHorizontal(Ficha ficha){
-		boolean filaCompleta=true;
+		
 
 		for(int i=0;i<casilla.length;i++){
+			boolean filaCompleta=true;
 			for(int j=0;j<casilla[i].length;j++){
-				if (true) {
+				if (casilla[i][j]!=ficha) {
 					filaCompleta=false;
 				}
 			}
+			if(filaCompleta){
+				return true;
+			}
 		}
-
-
 		return false;
 	}
 	protected boolean  ganaVertical(Ficha ficha){
 		
+		for(int j=0;j<casilla[0].length;j++){
+			boolean columnaCompleta=true;
+			for(int i=0;i<casilla.length;i++){
+				if (casilla[i][j]!=ficha) {
+					columnaCompleta=false;
+				}
+			}
+			if(columnaCompleta){
+				return true;
+			}
+		}
 		return false;
 	}
 	protected  boolean ganaDiagonalDirecta(Ficha ficha){
+		
 		
 		return false;
 	}
