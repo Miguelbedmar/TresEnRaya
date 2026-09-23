@@ -41,8 +41,8 @@ public class Partida {
 
     @Override
     public String toString() {
-        return "{"   
-      +      "}";
+    
+        return "Turno :"+turno+"\n"+tablero.toString();
     }
     
 

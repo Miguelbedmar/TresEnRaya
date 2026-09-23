@@ -122,6 +122,7 @@ public class Tablero {
 
 	private Object valueOf(Ficha ficha){
 		
+		
 		return ficha;
 	}
 	
