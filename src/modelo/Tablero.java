@@ -76,16 +76,29 @@ public class Tablero {
 		return false;
 	}
 	protected  boolean ganaDiagonalDirecta(Ficha ficha){
-		
-		
+		boolean ganaDiagonalDirec=true;
+		for(int i=0 ; i<casilla.length;i++){
+					
+			if(casilla[i][i]!=ficha)
+				ganaDiagonalDirec=false;
+		}
+		if(ganaDiagonalDirec){
+		return true;
+		}
 		return false;
 	}
 	protected boolean ganaDiagonalIndirecta(Ficha ficha){
-		
+			boolean ganaDiagonalInirec=true;
+		for(int i=0 ; i<casilla.length;i++){
+					
+			if(casilla[i][casilla.length-1-i]!=ficha)
+				ganaDiagonalInirec=false;
+		}
+		if(ganaDiagonalInirec){
+		return true;
+		}
 		return false;
 	}
-	
-
 
 	@Override
 	public String toString() {
