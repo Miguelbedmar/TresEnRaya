@@ -106,12 +106,7 @@ public class Tablero {
 
 		for(int i=0;i<casilla.length;i++){
 			for(int j=0;j<casilla[i].length;j++){
-				if (casilla[i][j]==null) {
-					resultado+="_";
-				}else{
-					resultado+=casilla[i][j];
-
-				}
+				resultado+=valueOf(casilla[i][j]);
 			}
 			resultado+="\n";
 		}
@@ -121,9 +116,12 @@ public class Tablero {
 	}
 
 	private Object valueOf(Ficha ficha){
+		if(ficha==null){
+			return "_";
+		}
+			return ficha;
 		
-		
-		return ficha;
+
 	}
 	
 }
